@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import {
-  PRODUCT_NAME,
+  LRC_TITLE,
   BRAND_NAME,
   PDP_URL,
   CDN_HERO_FRONT,
@@ -110,9 +110,9 @@ const Index = () => {
   ];
 
   const bundles = [
-    { name: ADV_BUNDLE_1_NAME, price: ADV_BUNDLE_1_PRICE, compare: ADV_BUNDLE_1_COMPARE, badge: null, extras: [`Digital "${PRODUCT_NAME} Protocol" Guide (free, $29 value)`, "Free shipping on orders over $50"] },
-    { name: ADV_BUNDLE_2_NAME, price: ADV_BUNDLE_2_PRICE, compare: ADV_BUNDLE_2_COMPARE, badge: "⭐ MOST POPULAR", extras: [`Digital "${PRODUCT_NAME} Protocol" Guide (free)`, "Mini Rose Quartz Facial Roller (free, $24.99 value)", "Free shipping included"] },
-    { name: ADV_BUNDLE_3_NAME, price: ADV_BUNDLE_3_PRICE, compare: ADV_BUNDLE_3_COMPARE, badge: null, extras: [`Digital "${PRODUCT_NAME} Protocol" Guide (free)`, "Rose Quartz Roller (free, $24.99 value)", "3-Pack Collagen Sheet Masks (free, $24.99 value)", "Free shipping included"] },
+    { name: ADV_BUNDLE_1_NAME, price: ADV_BUNDLE_1_PRICE, compare: ADV_BUNDLE_1_COMPARE, badge: null, extras: [`Digital "${LRC_TITLE} Protocol" Guide (free, $29 value)`, "Free shipping on orders over $50"] },
+    { name: ADV_BUNDLE_2_NAME, price: ADV_BUNDLE_2_PRICE, compare: ADV_BUNDLE_2_COMPARE, badge: "⭐ MOST POPULAR", extras: [`Digital "${LRC_TITLE} Protocol" Guide (free)`, "Mini Rose Quartz Facial Roller (free, $24.99 value)", "Free shipping included"] },
+    { name: ADV_BUNDLE_3_NAME, price: ADV_BUNDLE_3_PRICE, compare: ADV_BUNDLE_3_COMPARE, badge: null, extras: [`Digital "${LRC_TITLE} Protocol" Guide (free)`, "Rose Quartz Roller (free, $24.99 value)", "3-Pack Collagen Sheet Masks (free, $24.99 value)", "Free shipping included"] },
   ];
 
   return (
@@ -161,7 +161,7 @@ const Index = () => {
           {/* HERO IMAGE */}
           <img
             src={CDN_LIFESTYLE_1}
-            alt={`${PRODUCT_NAME} — lifestyle`}
+            alt={`${LRC_TITLE} — lifestyle`}
             style={{ width: "100%", borderRadius: "12px", marginBottom: "40px", boxShadow: "0 8px 32px rgba(0,0,0,0.10)" }}
           />
 
@@ -208,7 +208,7 @@ const Index = () => {
           {/* PRODUCT IMAGE */}
           <img
             src={CDN_HERO_FRONT}
-            alt={PRODUCT_NAME}
+            alt={LRC_TITLE}
             style={{ width: "100%", maxWidth: "400px", display: "block", margin: "0 auto 40px", borderRadius: "16px", boxShadow: "0 8px 32px rgba(0,0,0,0.10)" }}
           />
 
@@ -262,16 +262,16 @@ const Index = () => {
           {/* TEXTURE IMAGE */}
           <img
             src={CDN_TEXTURE_1}
-            alt={`${PRODUCT_NAME} texture`}
+            alt={`${LRC_TITLE} texture`}
             style={{ width: "100%", borderRadius: "12px", margin: "32px 0", boxShadow: "0 4px 16px rgba(0,0,0,0.08)" }}
           />
 
           {/* OFFER */}
           <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "clamp(22px, 3vw, 30px)", color: COLORS.headline, margin: "48px 0 20px" }}>
-            {PRODUCT_NAME} by {BRAND_NAME} — The Offer
+            {LRC_TITLE} by {BRAND_NAME} — The Offer
           </h2>
           <p style={{ fontSize: "17px", lineHeight: 1.9, marginBottom: "20px" }}>
-            {PRODUCT_NAME} is available exclusively at the {BRAND_NAME} website in three bundle configurations designed around the {ADV_MECHANISM_NAME} protocol.
+            {LRC_TITLE} is available exclusively at the {BRAND_NAME} website in three bundle configurations designed around the {ADV_MECHANISM_NAME} protocol.
           </p>
 
           {/* Offer box */}
@@ -316,7 +316,7 @@ const Index = () => {
 
           {/* CTA */}
           <div style={{ textAlign: "center", padding: "48px 24px", background: `linear-gradient(135deg, #FDF4EC 0%, #F5E6D3 100%)`, borderRadius: "20px" }}>
-            <img src={CDN_BUNDLE_3} alt={`${PRODUCT_NAME} bundle`} style={{ maxWidth: "320px", width: "100%", borderRadius: "16px", marginBottom: "24px" }} />
+            <img src={CDN_BUNDLE_3} alt={`${LRC_TITLE} bundle`} style={{ maxWidth: "320px", width: "100%", borderRadius: "16px", marginBottom: "24px" }} />
             <h3 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "clamp(22px, 3vw, 28px)", color: COLORS.headline, marginBottom: "16px" }}>
               {ADV_CTA_HEADLINE}
             </h3>

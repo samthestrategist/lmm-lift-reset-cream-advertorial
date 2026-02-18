@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/lmm-advertorial-golden-template/",
+  base: "/lmm-lift-reset-cream-advertorial/",
   plugins: [react()],
   resolve: {
     alias: {

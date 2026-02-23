@@ -285,7 +285,7 @@ const Index = () => {
                 <div style={{ display: "flex", gap: "12px", alignItems: "baseline", marginBottom: "8px" }}>
                   <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "22px", color: COLORS.cta }}>{tier.price}</span>
                   <span style={{ textDecoration: "line-through", color: "#9CA3AF" }}>reg. {tier.compare}</span>
-                  <span style={{ background: COLORS.green, color: "#fff", fontSize: "11px", fontWeight: 700, padding: "2px 8px", borderRadius: "9999px" }}>25% OFF with SECRET25</span>
+                  <span style={{ background: COLORS.green, color: "#fff", fontSize: "11px", fontWeight: 700, padding: "2px 8px", borderRadius: "9999px" }}>25% OFF <strong style="color: #F4A40A; font-size: 16px;">→ Use code SECRET25 at checkout to see final price</strong></span>
                 </div>
                 <ul style={{ fontSize: "14px", color: COLORS.body, margin: "8px 0 0 0", paddingLeft: "20px" }}>
                   {tier.extras.map((e, j) => <li key={j} style={{ marginBottom: "4px" }}>✓ {e}</li>)}
